@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Catálogo | DAZZLIA</title>
+<link href="css/estilos.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<img alt="Logo de DAZZLIA" class="logo" src="img/logo.jpg"/>
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="productos.html">Catálogo</a></li>
+<li><a href="carrito.html" class="carrito-icono">🛒ver carrito <span id="contador-carrito">0</span></a></li>
+</ul>
+</nav>
+</header>
+<main class="contenedor-productos">
+<h1>Nuestros productos</h1>
+<div class="galeria-productos">
+<div class="producto">
+<img alt="BATOLA (TALLA PLUS)" onclick='verProducto("img/BATOLA (TALLA PLUS).jpeg", "BATOLA (TALLA PLUS)")' src="img/BATOLA (TALLA PLUS).jpeg" style="cursor:pointer"/>
+<h2>BATOLA (TALLA PLUS)</h2>
+<p>$34.900</p>
+<button class="boton" onclick='agregarAlCarrito("BATOLA (TALLA PLUS)", "img/BATOLA (TALLA PLUS).jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="BATOLA BOLERO (TALLA UNICA)" onclick='verProducto("img/BATOLA BOLERO (TALLA UNICA).jpeg", "BATOLA BOLERO (TALLA UNICA)")' src="img/BATOLA BOLERO (TALLA UNICA).jpeg" style="cursor:pointer"/>
+<h2>BATOLA BOLERO (TALLA UNICA)</h2>
+<p>$33.500</p>
+<button class="boton" onclick='agregarAlCarrito("BATOLA BOLERO (TALLA UNICA)", "img/BATOLA BOLERO (TALLA UNICA).jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="BOBITO MANGA (TALLA UNICA)" onclick='verProducto("img/BOBITO MANGA (TALLA UNICA).jpeg", "BOBITO MANGA (TALLA UNICA)")' src="img/BOBITO MANGA (TALLA UNICA).jpeg" style="cursor:pointer"/>
+<h2>BOBITO MANGA (TALLA UNICA)</h2>
+<p>$38.000</p>
+<button class="boton" onclick='agregarAlCarrito("BOBITO MANGA (TALLA UNICA)", "img/BOBITO MANGA (TALLA UNICA).jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="DUO PADRE E HIJO" onclick='verProducto("img/DUO PADRE E HIJO.jpeg", "DUO PADRE E HIJO")' src="img/DUO PADRE E HIJO.jpeg" style="cursor:pointer"/>
+<h2>DUO PADRE E HIJO</h2>
+<p>$47.500</p>
+<button class="boton" onclick='agregarAlCarrito("DUO PADRE E HIJO", "img/DUO PADRE E HIJO.jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="ENTERIZO (TALLA UNICA)" onclick='verProducto("img/ENTERIZO (TALLA UNICA).jpeg", "ENTERIZO (TALLA UNICA)")' src="img/ENTERIZO (TALLA UNICA).jpeg" style="cursor:pointer"/>
+<h2>ENTERIZO (TALLA UNICA)</h2>
+<p>$35.500</p>
+<button class="boton" onclick='agregarAlCarrito("ENTERIZO (TALLA UNICA)", "img/ENTERIZO (TALLA UNICA).jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="JUANITA 4 PIEZAS (TALLA UNICA)" onclick='verProducto("img/JUANITA 4 PIEZAS (TALLA UNICA).jpg", "JUANITA 4 PIEZAS (TALLA UNICA)")' src="img/JUANITA 4 PIEZAS (TALLA UNICA).jpg" style="cursor:pointer"/>
+<h2>JUANITA 4 PIEZAS (TALLA UNICA)</h2>
+<p>$36.500</p>
+<button class="boton" onclick='agregarAlCarrito("JUANITA 4 PIEZAS (TALLA UNICA)", "img/JUANITA 4 PIEZAS (TALLA UNICA).jpg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="PANTALON CAMISA (TALLA UNICA)" onclick='verProducto("img/PANTALON CAMISA (TALLA UNICA).jpeg", "PANTALON CAMISA (TALLA UNICA)")' src="img/PANTALON CAMISA (TALLA UNICA).jpeg" style="cursor:pointer"/>
+<h2>PANTALON CAMISA (TALLA UNICA)</h2>
+<p>$42.500</p>
+<button class="boton" onclick='agregarAlCarrito("PANTALON CAMISA (TALLA UNICA)", "img/PANTALON CAMISA (TALLA UNICA).jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="PANTALON CAMISA MEDIO CORTE ( TALLA UNICA)" onclick='verProducto("img/PANTALON CAMISA MEDIO CORTE ( TALLA UNICA).jpg", "PANTALON CAMISA MEDIO CORTE ( TALLA UNICA)")' src="img/PANTALON CAMISA MEDIO CORTE ( TALLA UNICA).jpg" style="cursor:pointer"/>
+<h2>PANTALON CAMISA MEDIO CORTE ( TALLA UNICA)</h2>
+<p>$42.000</p>
+<button class="boton" onclick='agregarAlCarrito("PANTALON CAMISA MEDIO CORTE ( TALLA UNICA)", "img/PANTALON CAMISA MEDIO CORTE ( TALLA UNICA).jpg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="PANTALON CAMISA NIÑA  TALLA 2-4 6-8 10-12 14-16)" onclick='verProducto("img/PANTALON CAMISA NIÑA  TALLA 2-4 6-8 10-12 14-16).jpeg", "PANTALON CAMISA NIÑA  TALLA 2-4 6-8 10-12 14-16)")' src="img/PANTALON CAMISA NIÑA  TALLA 2-4 6-8 10-12 14-16).jpeg" style="cursor:pointer"/>
+<h2>PANTALON CAMISA NIÑA  TALLA 2-4 6-8 10-12 14-16)</h2>
+<p>$38.500</p>
+<button class="boton" onclick='agregarAlCarrito("PANTALON CAMISA NIÑA  TALLA 2-4 6-8 10-12 14-16)", "img/PANTALON CAMISA NIÑA  TALLA 2-4 6-8 10-12 14-16).jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16) (2)" onclick='verProducto("img/SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16) (2).jpeg", "SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16) (2)")' src="img/SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16) (2).jpeg" style="cursor:pointer"/>
+<h2>SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16) (2)</h2>
+<p>$32.000</p>
+<button class="boton" onclick='agregarAlCarrito("SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16) (2)", "img/SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16) (2).jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16)" onclick='verProducto("img/SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16).jpeg", "SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16)")' src="img/SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16).jpeg" style="cursor:pointer"/>
+<h2>SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16)</h2>
+<p>$32.000</p>
+<button class="boton" onclick='agregarAlCarrito("SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16)", "img/SHORT CAMISA NIÑA ( TALLA 2-4 6-8 10-12 14-16).jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="SHORT COQUETA TRIO (TALLA UNICA)" onclick='verProducto("img/SHORT COQUETA TRIO (TALLA UNICA).png", "SHORT COQUETA TRIO (TALLA UNICA)")' src="img/SHORT COQUETA TRIO (TALLA UNICA).png" style="cursor:pointer"/>
+<h2>SHORT COQUETA TRIO (TALLA UNICA)</h2>
+<p>$36.000</p>
+<button class="boton" onclick='agregarAlCarrito("SHORT COQUETA TRIO (TALLA UNICA)", "img/SHORT COQUETA TRIO (TALLA UNICA).png")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="SHORT LOLITA (TALLA UNICA)" onclick='verProducto("img/SHORT LOLITA (TALLA UNICA).jpeg", "SHORT LOLITA (TALLA UNICA)")' src="img/SHORT LOLITA (TALLA UNICA).jpeg" style="cursor:pointer"/>
+<h2>SHORT LOLITA (TALLA UNICA)</h2>
+<p>$38.000</p>
+<button class="boton" onclick='agregarAlCarrito("SHORT LOLITA (TALLA UNICA)", "img/SHORT LOLITA (TALLA UNICA).jpeg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="SHORT MANGA (TALLA UNICA) (2)" onclick='verProducto("img/SHORT MANGA (TALLA UNICA) (2).jpg", "SHORT MANGA (TALLA UNICA) (2)")' src="img/SHORT MANGA (TALLA UNICA) (2).jpg" style="cursor:pointer"/>
+<h2>SHORT MANGA (TALLA UNICA) (2)</h2>
+<p>$34.000</p>
+<button class="boton" onclick='agregarAlCarrito("SHORT MANGA (TALLA UNICA) (2)", "img/SHORT MANGA (TALLA UNICA) (2).jpg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="SHORT MANGA (TALLA UNICA)" onclick='verProducto("img/SHORT MANGA (TALLA UNICA).jpg", "SHORT MANGA (TALLA UNICA)")' src="img/SHORT MANGA (TALLA UNICA).jpg" style="cursor:pointer"/>
+<h2>SHORT MANGA (TALLA UNICA)</h2>
+<p>$34.000</p>
+<button class="boton" onclick='agregarAlCarrito("SHORT MANGA (TALLA UNICA)", "img/SHORT MANGA (TALLA UNICA).jpg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="SHORT TIRA VAQUITA (TALLA UNICA)" onclick='verProducto("img/SHORT TIRA VAQUITA (TALLA UNICA).jpg", "SHORT TIRA VAQUITA (TALLA UNICA)")' src="img/SHORT TIRA VAQUITA (TALLA UNICA).jpg" style="cursor:pointer"/>
+<h2>SHORT TIRA VAQUITA (TALLA UNICA)</h2>
+<p>$31.000</p>
+<button class="boton" onclick='agregarAlCarrito("SHORT TIRA VAQUITA (TALLA UNICA)", "img/SHORT TIRA VAQUITA (TALLA UNICA).jpg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="SHORT TIRAS (TALLA UNICA)" onclick='verProducto("img/SHORT TIRAS (TALLA UNICA).jpg", "SHORT TIRAS (TALLA UNICA)")' src="img/SHORT TIRAS (TALLA UNICA).jpg" style="cursor:pointer"/>
+<h2>SHORT TIRAS (TALLA UNICA)</h2>
+<p>$31.000</p>
+<button class="boton" onclick='agregarAlCarrito("SHORT TIRAS (TALLA UNICA)", "img/SHORT TIRAS (TALLA UNICA).jpg")'>Agregar al carrito</button>
+</div>
+<div class="producto">
+<img alt="SHORT TIRAS HELLO KITTY (TALLA UNICA)" onclick='verProducto("img/SHORT TIRAS HELLO KITTY (TALLA UNICA).jpg", "SHORT TIRAS HELLO KITTY (TALLA UNICA)")' src="img/SHORT TIRAS HELLO KITTY (TALLA UNICA).jpg" style="cursor:pointer"/>
+<h2>SHORT TIRAS HELLO KITTY (TALLA UNICA)</h2>
+<p>$31.000</p>
+<button class="boton" onclick='agregarAlCarrito("SHORT TIRAS HELLO KITTY (TALLA UNICA)", "img/SHORT TIRAS HELLO KITTY (TALLA UNICA).jpg")'>Agregar al carrito</button>
+</div>
+</div>
+</main>
+<footer>
+<p>© 2025 DAZZLIA - Todos los derechos reservados</p>
+</footer>
+
+<a href="https://wa.me/573108203372?text=Hola%20DAZZLIA%2C%20estoy%20interesado%20en%20uno%20de%20sus%20productos.%20%C2%BFPuedes%20darme%20m%C3%A1s%20informaci%C3%B3n%3F" class="whatsapp" target="_blank" title="Contáctanos por WhatsApp">
+    💬
+</a>
+
+<!-- Modal de vista previa -->
+<div class="modal" id="modal-producto">
+<div class="modal-contenido">
+<span class="cerrar" onclick="cerrarModal()">×</span>
+<img alt="" id="modal-imagen" src="">
+<h2 id="modal-nombre"></h2>
+</img></div>
+</div>
+<script src="js/carrito.js"></script>
+<script>
+function verProducto(imagen, nombre) {
+    document.getElementById("modal-imagen").src = imagen;
+    document.getElementById("modal-nombre").textContent = nombre;
+    document.getElementById("modal-producto").style.display = "block";
+}
+function cerrarModal() {
+    document.getElementById("modal-producto").style.display = "none";
+}
+window.onclick = function(event) {
+    let modal = document.getElementById("modal-producto");
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
